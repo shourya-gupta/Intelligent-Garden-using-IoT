@@ -7,9 +7,11 @@
 #define ONE_WIRE_BUS D2
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
-char auth[] =”yeQ2H9_LKVLAGVSQzk3aLA6J75L25uKd”;
-char ssid[] = “Airtel_9810156712”;
-char pass[] = “air22503”;
+char auth[] =”XYZ”;  //Authorization token from Blynk app 
+char ssid[] = “XYZ”;    //Write your WiFi Name
+char pass[] = “XYZ”;    //Write your WiFi Password
+
+// "XYZ" is put for demo purpose
 
 #define DHTPIN 2
 #define DHTTYPE DHT11
